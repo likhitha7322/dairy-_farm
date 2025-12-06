@@ -1,0 +1,23 @@
+{
+  "name": "dairy-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.7.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.0",
+    "openai": "^6.9.1",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

@@ -1,0 +1,31 @@
+/* src/App.css */
+
+/* Make everything use full width, no mobile-style max-widths */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Page background */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #b3e5fc; /* light blue like your old design */
+}
+
+/* Optional: if you had any .app or .container limiting width, override here */
+.app,
+.container,
+.page {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
